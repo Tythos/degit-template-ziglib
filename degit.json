@@ -1,0 +1,11 @@
+[
+    {
+        "action": "search_replace",
+        "files": [
+            "build.zig",
+            "build.zig.zon"
+        ],
+        "pattern": "\\{\\{name\\}\\}",
+        "replacement": "PROJECT_NAME"
+    }
+]
